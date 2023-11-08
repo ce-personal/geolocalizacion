@@ -70,6 +70,6 @@ getInitialUbicacion();
 setInterval(() => {
   getYourUbication();
   printInfoUbication();
-});
+}, 1000);
 
 printInfoUbication();
